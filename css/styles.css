@@ -131,6 +131,12 @@ p {
 /* Hero */
 
 .hero-section {
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('../images/Hero-jpg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
   background-color: var(--footer-color);
   text-align: center;
   padding-bottom: 200px;
