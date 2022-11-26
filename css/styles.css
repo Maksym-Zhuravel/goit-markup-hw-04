@@ -56,12 +56,9 @@ p {
 }
 
 .header-address {
-  margin-left: 344px;
+  margin-left: 318px;
 }
 
-.contacts {
-  display: flex;
-}
 
 .logo {
   padding-top: 24px;
@@ -117,6 +114,19 @@ p {
   letter-spacing: 0.02em;
 }
 
+.contacts {
+  display: flex;
+  align-items: center;
+}
+
+.contacts-icon{
+  margin-right: 10px;
+  height: 16px;
+  width: 10px;
+  fill: currentColor;
+}
+
+
 .contacts .contacts-list + .contacts-list {
   margin-left: 40px;
 }
@@ -125,6 +135,7 @@ p {
 .contacts-link:focus {
   color: var(--logo-color);
 }
+
 
 /* MAIN SECTION */
 
