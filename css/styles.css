@@ -309,7 +309,7 @@ p {
   color: var(--font-color);
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.19px;
+  line-height: 1.19;
 }
 
 .team-soc-list {
